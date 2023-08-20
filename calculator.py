@@ -17,3 +17,6 @@ def division(x, y):
 
 # print options to the user
 print("Select operation: \n 1. Add \n 2. Subtract \n 3. Multiply \n 4. Divide")
+
+# while loop to continue or exit the program
+while True:
