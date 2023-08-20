@@ -33,3 +33,5 @@ while True:
 
         if choice == '1':
             print(num1, '+', num2, '=', add(num1, num2))
+        elif choice == '2':
+            print(num1, '-', num2, '=', subtraction(num1, num2))
