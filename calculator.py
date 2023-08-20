@@ -9,3 +9,7 @@ def subtraction(x, y):
 def multiplication(x, y):
     answer = x * y
     return answer
+
+def division(x, y):
+    answer = x / y
+    return answer
