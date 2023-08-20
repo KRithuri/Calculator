@@ -20,3 +20,5 @@ print("Select operation: \n 1. Add \n 2. Subtract \n 3. Multiply \n 4. Divide")
 
 # while loop to continue or exit the program
 while True:
+    # take input from the user
+    choice = input("Enter choice (1/2/3/4): ")
