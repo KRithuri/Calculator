@@ -47,3 +47,8 @@ def calculator(x,y):
 
             else:
                 print("Invalid input!")
+
+def main():
+    num1=int(input("Enter a number: "))
+    num2=int(input("Enter a number: "))
+    calculator(num1,num2)
