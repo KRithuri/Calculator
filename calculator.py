@@ -1,4 +1,4 @@
-def calculator(x,y):
+def calculator():
     # define functions needed
     def add(x, y):
         answer = x + y
@@ -49,8 +49,6 @@ def calculator(x,y):
                 print("Invalid input!")
 
 def main():
-    num1=int(input("Enter a number: "))
-    num2=int(input("Enter a number: "))
-    calculator(num1,num2)
+    calculator()
 
 main()
