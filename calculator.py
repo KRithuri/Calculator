@@ -52,3 +52,5 @@ def main():
     num1=int(input("Enter a number: "))
     num2=int(input("Enter a number: "))
     calculator(num1,num2)
+
+main()
