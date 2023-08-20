@@ -39,3 +39,7 @@ while True:
             print(num1, '*', num2, '=', multiplication(num1, num2))
         elif choice == '4':
             print(num1, '/', num2, '=', division(num1, num2))
+
+        calcuate_again = input("Would you like to do another calculation? Y-yes N-no")
+        if calcuate_again.lower() == "n":
+            break
