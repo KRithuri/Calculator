@@ -37,3 +37,5 @@ while True:
             print(num1, '-', num2, '=', subtraction(num1, num2))
         elif choice == '3':
             print(num1, '*', num2, '=', multiplication(num1, num2))
+        elif choice == '4':
+            print(num1, '/', num2, '=', division(num1, num2))
