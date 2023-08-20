@@ -22,3 +22,11 @@ print("Select operation: \n 1. Add \n 2. Subtract \n 3. Multiply \n 4. Divide")
 while True:
     # take input from the user
     choice = input("Enter choice (1/2/3/4): ")
+    # check if choice is one of the four options
+    if choice in ('1', '2', '3', '4'):
+        try:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+        except ValueError:
+            print("Invalid! Enter a number.")
+            continue
